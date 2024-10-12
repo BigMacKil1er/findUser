@@ -1,0 +1,33 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    padding-top: 27px;
+    width: 293px;
+    border-right: 1px solid #DEDEDD;
+    color: black;
+    h3 {
+        font-size: 16px;
+        margin: 0;
+    }
+    .search_wrapper, .search_result_wrapper {
+        padding-right: 22px;
+        padding-left: 23px;
+    }
+    .search_wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+    .search_result_wrapper {
+        margin-top: 29px;
+        height: 100%;
+        overflow-y: auto;
+    }
+    .search_result {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        margin-top: 18px;
+        width: 100%;
+    }
+}
